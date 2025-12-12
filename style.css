@@ -11,6 +11,12 @@ body {
     min-height: 100vh; /* Ensures body is at least full viewport height */
     margin: 0; /* Resets default body margin */
 }
+li{
+    list-style-type:disc; 
+    font-size: clamp(0.25vw, 25px, 2vw); 
+    line-height: clamp(0.25vw, 35px, 2vw); 
+    margin: 25px;
+}
 /*Extra Large screens - Extra large desktops*/
 .header{
     
@@ -96,6 +102,8 @@ main{
     margin:50px 0px;
     text-align: center;
     text-transform: uppercase;
+    font-family: 'Jersey 10', sans-serif;
+    letter-spacing: 15px;
     
 }
 
